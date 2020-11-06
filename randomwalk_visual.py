@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt 
 
-from random_walk import RandomWalk 
+from randomwalk import RandomWalk
 
 
-rw = RandomWalk(25_000)
+rw = RandomWalk(30_000)
 rw.fill_walk()
 
 plt.style.use('classic')
